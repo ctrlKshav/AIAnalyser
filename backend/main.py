@@ -3,11 +3,12 @@ import os
 import fitz 
 
 
+
+
 app = FastAPI()
 
 UPLOAD_FOLDER = "../uploaded_pdfs"
 
-import fitz  # PyMuPDF
 
 @app.post("/upload_pdf/")
 async def upload_pdf(file: UploadFile = File(...)):
