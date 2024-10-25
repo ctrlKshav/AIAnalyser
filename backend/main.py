@@ -1,38 +1,68 @@
-from fastapi import FastAPI, File, UploadFile
 import os
-import fitz 
-
-
-
+import fitz  # PyMuPDF
+from fastapi import FastAPI, File, UploadFile
+from pydantic import BaseModel
+from transformers import pipeline
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-UPLOAD_FOLDER = "../uploaded_pdfs"
 
 
-@app.post("/upload_pdf/")
-async def upload_pdf(file: UploadFile = File(...)):
-    file_location = f"{UPLOAD_FOLDER}/{file.filename}"
-    with open(file_location, "wb+") as file_object:
-        file_object.write(file.file.read())
+# Set up CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],  # Update with your frontend URL
+    allow_credentials=True,
+    allow_methods=["*"],  # Allow all methods (GET, POST, etc.)
+    allow_headers=["*"],  # Allow all headers
+)
 
-    doc = fitz.open(file_location)
+# Load the Hugging Face question-answering pipeline
+qa_pipeline = pipeline("question-answering", model="distilbert-base-uncased-distilled-squad")
+
+# Function to extract text from the uploaded PDF
+def extract_text_from_pdf(pdf_path: str) -> str:
+    doc = fitz.open(pdf_path)
     text = ""
     for page in doc:
         text += page.get_text()
+    return text
 
-    return {"info": "file uploaded successfully", "filename": file.filename, "content": text}
+# Endpoint to upload PDF and extract text
+@app.post("/upload_pdf/")
+async def upload_pdf(file: UploadFile = File(...)):
+    pdf_path = f"../uploaded_pdfs/{file.filename}"
+    
+    # Ensure the directory exists
+    os.makedirs("../uploaded_pdfs", exist_ok=True)
+    
+    # Save the uploaded PDF
+    with open(pdf_path, "wb") as f:
+        f.write(await file.read())
+    
+    # Extract text from the PDF
+    text_content = extract_text_from_pdf(pdf_path)
+    
+    # Save extracted text for later use
+    with open("pdf_text.txt", "w") as f:
+        f.write(text_content)
+    
+    return {"message": "PDF uploaded and processed successfully"}
 
+# Define a Pydantic model for the question request
+class QuestionRequest(BaseModel):
+    question: str
 
-
+# Endpoint to answer questions based on the extracted text
 @app.post("/ask_question/")
-async def ask_question(document_id: str, question: str):
-    # Load document text from database or file
-    text = load_text_from_document(document_id)
+async def ask_question(data: QuestionRequest):
+    # Load the extracted text
+    with open("pdf_text.txt", "r") as f:
+        context = f.read()
     
-    # Create an index (this can be optimized and stored in memory)
-    index = GPTSimpleVectorIndex.from_text(text)
+    # Use the Hugging Face model to answer the question
+    response = qa_pipeline(question=data.question, context=context)
+    print(response)
     
-    # Process the question
-    answer = index.query(question)
-    return {"answer": str(answer)}
+    return {"answer": response["answer"]}
