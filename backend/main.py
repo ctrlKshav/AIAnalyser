@@ -1,13 +1,25 @@
 import os
+import bs4
 import fitz  # PyMuPDF
 from fastapi import FastAPI, File, UploadFile
 from pydantic import BaseModel
-from transformers import pipeline
+# from langchain.chains import QuestionAnsweringChain
+from langchain.embeddings import HuggingFaceEmbeddings
+# from langchain.llms import HuggingFaceHub
 from fastapi.middleware.cors import CORSMiddleware
+from dotenv import load_dotenv  # Import the dotenv function
+from langchain import hub
+from langchain_community.document_loaders import WebBaseLoader,TextLoader
+from langchain.vectorstores import FAISS
+from langchain_core.output_parsers import StrOutputParser
+from langchain_core.runnables import RunnablePassthrough
+from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_google_vertexai import ChatVertexAI
+import vertexai
 
 app = FastAPI()
-
-
+load_dotenv(".env")
 
 # Set up CORS middleware
 app.add_middleware(
@@ -18,8 +30,6 @@ app.add_middleware(
     allow_headers=["*"],  # Allow all headers
 )
 
-# Load the Hugging Face question-answering pipeline
-qa_pipeline = pipeline("question-answering", model="distilbert-base-uncased-distilled-squad")
 
 # Function to extract text from the uploaded PDF
 def extract_text_from_pdf(pdf_path: str) -> str:
@@ -28,6 +38,59 @@ def extract_text_from_pdf(pdf_path: str) -> str:
     for page in doc:
         text += page.get_text()
     return text
+
+def process_text_file(text_file_path: str,question) -> str:
+    
+
+    # Load environment variables from .env file
+
+
+    # Initialize Vertex AI SDK
+    vertexai.init(project=os.getenv("PROJECT_ID"), location=os.getenv('REGION'))
+
+    # Set up the language model using Vertex AI's Chat API
+    llm = ChatVertexAI(model="gemini-pro")
+
+    loader=TextLoader('./processed_files/pdf_text.txt')
+
+   
+    docs = loader.load()
+    print("Dawgs")
+    print(docs)
+
+    # Split documents into chunks for processing
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+    splits = text_splitter.split_documents(docs)
+    print("spips")
+    # print(splits)
+
+    # Create embeddings using Hugging Face and build the vector store with FAISS
+    hf_embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+    vectorstore = FAISS.from_documents(splits, hf_embeddings)
+
+    # Set up retriever and prompt
+    retriever = vectorstore.as_retriever()
+    prompt = hub.pull("rlm/rag-prompt")
+
+    # Format documents for the final output
+    def format_docs(docs):
+        return "\n\n".join(doc.page_content for doc in docs)
+
+    # Chain setup for retrieval and response generation
+    rag_chain = (
+        {"context": retriever | format_docs, "question": RunnablePassthrough()}
+        | prompt
+        | llm
+        | StrOutputParser()
+    )
+
+    # Example query
+    answer = rag_chain.invoke(question)
+    print(answer)
+    return answer
+
+    # No need for delete_collection; FAISS does not have it
+    # For cleanup, you may remove vectorstore's reference if needed
 
 # Endpoint to upload PDF and extract text
 @app.post("/upload_pdf/")
@@ -45,7 +108,8 @@ async def upload_pdf(file: UploadFile = File(...)):
     text_content = extract_text_from_pdf(pdf_path)
     
     # Save extracted text for later use
-    with open("pdf_text.txt", "w") as f:
+    # with open(f"./processed_files/{file.filename}.txt", "w") as f:
+    with open(f"./processed_files/pdf_text.txt", "w") as f:
         f.write(text_content)
     
     return {"message": "PDF uploaded and processed successfully"}
@@ -58,11 +122,9 @@ class QuestionRequest(BaseModel):
 @app.post("/ask_question/")
 async def ask_question(data: QuestionRequest):
     # Load the extracted text
-    with open("pdf_text.txt", "r") as f:
+    with open("./processed_files/pdf_text.txt", "r") as f:
         context = f.read()
+
+    response = process_text_file("pdf_text.txt",data.question)
     
-    # Use the Hugging Face model to answer the question
-    response = qa_pipeline(question=data.question, context=context)
-    print(response)
-    
-    return {"answer": response["answer"]}
+    return {"answer": response}
