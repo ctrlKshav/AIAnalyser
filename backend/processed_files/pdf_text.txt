@@ -1,0 +1,1248 @@
+2020
+HackerRank
+Developer 
+Skills Report
+Insights based on 116,648 developers
+At HackerRank, we have over 7 million developers in our community. 
+That’s over 25% of the world’s developers who are using HackerRank 
+to level up their coding skills. 
+We’re fortunate to play a part in expanding and growing the developer 
+community during this time of rapid change. Our mission at HackerRank 
+is to help accelerate the world’s innovation as more and more 
+companies shift to tech-focused approaches to running and building 
+their businesses. Since 2010, 22 newcomers have entered the Fortune 
+100—a seismic shift—driven largely by technical innovation. Since that 
+time, tech-first giants like Amazon, Google, and Facebook have joined 
+the list, and they’re not slowing down.
+As companies evolve to embed tech into the heart of their products, 
+the need for skilled talent is growing exponentially. To meet that 
+demand, companies will have to become experts in developer hiring—
+not by relying on developers’ pedigrees or resumes, but by objectively 
+evaluating their skills and placing them strategically throughout the 
+organizations they work for.
+To understand the state of developer skills in 2020, we’re launching our third annual 
+Developer Skills Report: the largest survey of its kind ever released. We asked for 
+input on coding bootcamps, pay equity, and more—and over 116,000 developers 
+from 162 countries responded. The data provides unparalleled insight into what 
+employers and employees know, what they’re looking for in their work, and how 
+they see their roles evolving as technology sweeps across industries of all sizes.
+I hope you enjoy our findings. Please feel free to tweet us @hackerrank 
+or email us at research@hackerrank.com with comments or questions.
+Vivek Ravisankar
+Co-founder & CEO
+HackerRank
+I N T R O
+2020 HackerRank Developer Skills Report  |  P.02
+I N D E X
+ I N T R O
+L E A R N I N G
+S K I L L S
+T O O L S
+W O R K
+T O O L S
+2020’s most widely known languages
+2020’s most widely known frameworks
+Languages developers want to learn
+Languages developers know vs. average salary
+Frameworks developers want to learn
+Frameworks developers know vs. average salary
+W O R K
+Developer salaries across the world
+Developer salaries in the US
+Developers on pay equity
+The most important form of professional growth
+The role developers want to have in 3 years
+How developers spend their downtime 
+M E T H O D O L O G Y
+I N T R O
+L E A R N I N G
+The first language developers learned to code in
+How developers learn new coding skills
+Are managers hiring bootcamp grads?
+Hiring managers’ opinions on bootcamp grad skills
+Developer education level vs. employer company size
+S K I L L S
+2020’s most in-demand talent pool
+Roles required to learn new skills most often
+Languages hiring managers are looking for
+P.02
+P.04
+P.05
+P.06
+P.07
+P.08
+P.09
+P.10
+P.11
+P.12
+P.13
+P.14
+P.15
+P.16
+P.17
+P.18
+P.19
+P.20
+P.21
+P.22
+P.23
+P.24
+INDEX
+2020 HackerRank Developer Skills Report  |  P.03
+I N D E X
+L E A R N I N G
+T O O L S
+W O R K
+S K I L L S
+ I N T R O
+Under the age of 39? Odds are that most of your peers learned 
+to code in C.
+Most Baby Boomers and Gen Xers—or, those between the ages 
+of 40 and 74 in 2020—learned to code in BASIC. Developed for 
+educational use in 1964, BASIC was a popular instructional 
+language in college classrooms.
+But that began to change in 1972, when Bell Labs invented C, 
+allowing portability of  the Unix operating system. Though it wasn’t 
+an instant hit, the language rose to popularity in the late 70s 
+and early 80s alongside the growth of Unix. 
+Today, the language is celebrated for its longevity, flexibility, 
+and ease of use—just some of the reasons it’s still popular 
+for Gen Zers learning to code today.
+For learning to code, 
+C is overtaking BASIC
+L E A R N I N G  &  E D U C A T I O N
+What was the first language you learned to code in?
+2020 HackerRank Developer Skills Report  |  P.04
+C
+Java
+C++
+BASIC
+Pascal
+39.5%
+30.5%
+10.7%
+7.1%
+14.1%
+14.5%
+3.8%
+1.3%
+16.0%
+12.6%
+5.4%
+1.3%
+3.2%
+8.1%
+45.3%
+32.9%
+3.5%
+8.3%
+13.5%
+7.1%
+Gen Z
+Millennial
+Gen X
+Baby Boomer
+L E A R N I N G
+T O O L S
+W O R K
+ I N T R O
+S K I L L S
+I N D E X
+Gen Z is more likely than any previous generation to learn coding skills 
+from bootcamps. Nearly one in six say they’ve leveraged bootcamps 
+to learn new skills.
+On the flip side, they’re less likely to learn coding skills from older 
+generations’ go-tos, like books and on-the-job training. As Gen Z 
+comes to rely more heavily on non-traditional education sources 
+like bootcamps, they’re poised to become a key talent pool.
+So which coding bootcamps are they turning to? Among respondents, 
+the most commonly attended bootcamps were:
+Gen Z is utilizes 
+bootcamps to learn 
+new skills
+L E A R N I N G  &  E D U C A T I O N
+How do you learn new coding skills?
+• Codeworks
+• AppAcademy
+• Hack Reactor
+• Coderhouse
+• Byte Academy
+2020 HackerRank Developer Skills Report  |  P.05
+YouTube
+HackerRank
+Coding Bootcamps
+From Peers or Mentors
+Developer Websites (e.g. GitHub)
+Online Courses (e.g. edX)
+On-the-job Training
+Books
+71.0%
+61.1%
+47.4%
+40.6%
+51.6%
+43.5%
+34.7%
+32.9%
+16.0%
+13.2%
+10.5%
+9.7%
+36.4%
+36.7%
+34.8%
+27.1%
+72.9%
+76.4%
+76.0%
+63.2%
+59.3%
+66.9%
+65.6%
+63.9%
+36.7%
+45.3%
+47.0%
+46.5%
+39.3%
+46.3%
+63.1%
+68.4%
+Gen Z
+Millennial
+Gen X
+Baby Boomer
+T O O L S
+W O R K
+L E A R N I N G
+ I N T R O
+S K I L L S
+I N D E X
+Hiring managers are bringing on bootcamp grads: 32% of them have 
+hired a developer who learned their coding skills from a bootcamp.
+But not all hiring managers have tapped into this growing talent pool. 
+Nearly half (49%) of hiring managers have never hired a bootcamp 
+grad. Results were similar across all company sizes.
+As younger generations are increasingly drawn to bootcamps, that 
+mentality may have to change. Gen Z is more likely than previous 
+generations to learn coding skills from a bootcamp, while bootcamp 
+attendance rates have risen 11x over the last decade. Combined, it’s 
+a signal that bootcamp grads are slated to grow in number—and may 
+grow as a talent source as time goes on.
+Nearly 1 in 3 hiring 
+managers have hired 
+a bootcamp grad
+L E A R N I N G  &  E D U C A T I O N
+Have you hired a developer that learned their coding skills 
+from a bootcamp?
+2020 HackerRank Developer Skills Report  |  P.06
+Yes 31.7%
+No 48.9%
+Not Sure 19.4%
+T O O L S
+W O R K
+L E A R N I N G
+ I N T R O
+S K I L L S
+I N D E X
+Hiring managers that bring on bootcamp grads reap the benefits.
+In fact: 72% of hiring managers that have hired a bootcamp grad felt 
+they were equally or better equipped for the job than other hires. 
+According to managers, the top reasons bootcamp grads exceed are:
+• Ability to learn new technologies & languages quickly (71%)
+• Strong practical experience (61%)
+• Eager to take on new responsibilities (52%)
+It’s a strong endorsement for this fast-growing form of coding 
+education. While the first coding bootcamps emerged in 2011, their 
+popularity has exploded over the course of the decade. A recent study 
+counted 20,000+ bootcamp graduates in 2019  from 110 full-time 
+programs—and that’s just in the United States (US) and Canada.
+And hiring managers 
+believe they’re well-
+suited for the work
+L E A R N I N G  &  E D U C A T I O N
+Do you find bootcamp grads are better equipped 
+for the job than other hires?
+2020 HackerRank Developer Skills Report  |  P.07
+Yes 33.0%
+No 27.8%
+Same as 
+Other Hires 
+39.2%
+T O O L S
+W O R K
+L E A R N I N G
+ I N T R O
+S K I L L S
+I N D E X
+Tech hiring giants like Google, Apple, and IBM have famously lifted 
+their 4-year degree requirements. But for hiring developers without 
+degrees, it’s small companies that are leading the charge.
+32% of developers at small companies (1-49 employees) haven’t 
+obtained a Bachelor’s degree. It’s a stark contrast to large companies 
+(10,000+ employees); there, 91% of developers have obtained 
+a Bachelor’s degree or higher, while only 9% have not.
+It’s a win for small companies, and should be seen as an opportunity 
+for larger companies to tap into a broader talent pool.
+Small companies 
+are most likely 
+to hire developers 
+without a degree
+L E A R N I N G  &  E D U C A T I O N
+What is the highest level of education you’ve completed?
+2020 HackerRank Developer Skills Report  |  P.08
+Less than Bachelor's degree
+Bachelor’s degree
+Master’s degree 
+or Doctorate degree
+31.9%
+18.4%
+14.9%
+8.6%
+50.9%
+59.7%
+59.9%
+69.0%
+17.2%
+22.0%
+25.2%
+22.5%
+1-49 employees
+50-999 employees
+1,000-9,999 employees
+10,000+ employees
+T O O L S
+W O R K
+L E A R N I N G
+ I N T R O
+S K I L L S
+I N D E X
+Across company sizes, hiring managers agree that full-stack developers 
+are top priority: 38% of hiring managers say it’s the #1 role to fill in 2020. 
+Back-end developers and data scientists were ranked second and third 
+priorities, respectively. 
+The emphasis on full-stack developers was most pronounced in small 
+companies (1-49 employees), 43% of which ranked the role as their 
+top priority.
+Though the qualities that define a “full-stack developer” are a subject 
+of debate, most agree that they should have a basic understanding 
+(or better) of all layers of a tech stack, and should be able to generate 
+a minimum viable product on their own. It’s why they’re especially 
+important in small organizations, where fewer employees often have
+to do the job of many.
+2020’s most in-demand 
+talent pool: full-stack 
+developers
+I N - D E M A N D  S K I L L S
+What’s the most important role you’re looking to fill in 2020?
+2020 HackerRank Developer Skills Report  |  P.09
+Full-stack developer
+Back-end developer
+Data scientist
+Front-end developer
+DevOps engineer
+100%
+0
+1-49 employees 50-999 employees
+1,000-9,999
+employees
+10,000+
+employees
+Total
+43.4%
+20.1%
+13.0%
+10.9%
+7.4%
+5.2%
+33.9%
+27.7%
+14.9%
+10.3%
+7.9%
+5.3%
+34.3%
+28.0%
+15.1%
+8.1%
+9.0%
+5.4%
+36.2%
+21.2%
+17.8%
+8.5%
+10.2%
+6.2%
+37.6%
+24.0%
+14.8%
+9.9%
+8.3%
+5.4%
+QA engineer
+L E A R N I N G
+S K I L L S
+T O O L S
+W O R K
+ I N T R O
+I N D E X
+Full-stack developers may be in highest demand, but their role 
+is also one of the most professionally demanding. 60% of full-stack 
+developers were required to learn a completely new framework 
+or platform in the last year—more than any other role polled.
+Full-stack developers also have to learn the most languages: 
+45% reported that they had to pick up a new one within the last year. 
+Their peers have to learn more about  theoretical concepts; 
+data scientists and DevOps engineers were required to learn new 
+concepts most often (33%).
+With expertise that spans front-end, back-end, and more (depending 
+on whom you ask), full-stack developers have one of the more 
+nebulous job descriptions in the technical world. The relative 
+flexibility of their role—and the breadth of technologies they have 
+to keep up on as a result—means learning on the job never stops.
+Full-stack developers 
+are required to learn 
+new skills most often
+I N - D E M A N D  S K I L L S
+Did your job require you to learn a new technical 
+skill in the last year?
+2020 HackerRank Developer Skills Report  |  P.10
+45.4
+59.7
+27.3
+36.1
+49.3
+21.9
+38.3
+53.0
+28.2
+41.4
+45.1
+33.1
+39.8
+56.9
+33.4
+39.7
+46.6
+25.8
+Yes, a new language
+Yes, a new platform/framework
+Yes, a new theoretical concept
+Full-stack
+developer
+Front-end 
+developer
+Back-end 
+developer
+Data 
+scientist
+DevOps 
+engineer
+QA 
+engineer
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+%
+L E A R N I N G
+T O O L S
+W O R K
+S K I L L S
+ I N T R O
+I N D E X
+Globally, JavaScript is the most popular language hiring managers 
+look for in a candidate. But not all hiring managers see language 
+skills as a top priority: globally, 14% say they’re language agnostic 
+when screening candidates.
+This trend is most pronounced in the Americas region (AMER): 
+21% of hiring managers in the region are language agnostic 
+when searching for new hires. Asia-Pacific region (APAC) hiring 
+managers are half as likely to be language agnostic (10%).
+1 in 5 hiring managers 
+in the Americas are 
+language agnostic 
+when seeking new hires
+I N - D E M A N D  S K I L L S
+What language skills do you look for when hiring developers?
+2020 HackerRank Developer Skills Report  |  P.11
+JavaScript
+Python
+Java
+C#
+C++
+PHP
+Language Agnostic
+53.6%
+49.5%
+44.1%
+19.7%
+18.3%
+17.0%
+14.3%
+51.6%
+38.1%
+21.7%
+17.2%
+15.0%
+20.5%
+51.2%
+50.7%
+51.3%
+15.8%
+17.5%
+16.8%
+10.0%
+53.6%
+45.2%
+40.9%
+23.6%
+20.9%
+19.5%
+12.8%
+56.9%
+Global
+AMER
+APAC
+EMEA
+L E A R N I N G
+T O O L S
+W O R K
+S K I L L S
+ I N T R O
+I N D E X
+D E V E L O P E R  T O O L S
+In terms of most known languages, little has changed over the last three 
+years. In fact, the top 10 languages saw only two changes from last year: 
+C# and PHP switched between sixth and seventh position.
+It’s worth noting that the best known language, JavaScript, isn’t 
+a language most developers learn to code in—only 5% of respondents 
+reported it as their first programming language. Java follows a similar 
+pattern: it’s the second best known language overall, yet only 13% 
+of developers say it was their first language learned.
+JavaScript is this year’s 
+most widely known 
+language (again)
+Best known languages: 2018-2020
+JavaScript
+1
+1
+2
+Java
+2
+2
+1
+C
+3
+3
+3
+Python
+4
+4
+5
+C++
+5
+5
+4
+C#
+6
+7
+6
+PHP
+7
+6
+7
+TypeScript
+8
+8
+8
+Pascal
+9
+9
+9
+R
+10
+10
+10
+2020
+2019
+2018
+2020 HackerRank Developer Skills Report  |  P.12
+L E A R N I N G
+W O R K
+ I N T R O
+S K I L L S
+T O O L S
+I N D E X
+D E V E L O P E R  T O O L S
+This year, the framework landscape was as dynamic as last year, with five 
+total changes across the top 10.
+Since our first Developer Skills Survey, Vue.js, has shown steady growth, 
+rising one spot per year since 2018. But the most dramatic change was for 
+Django, which moved up two spots between 2019 and 2020  (rising from 
+sixth to fourth most popular). 
+Django’s lift in usage is inextricably linked to the rise of Python. A popular 
+choice for machine learning and artificial intelligence (AI), Python saw an 
+uptick in usage in 2019, and has consistently been ranked as one of the top 
+languages that developers want to learn year over year. And since Django is 
+a Python-based framework, it’s natural that Django would rise alongside it.
+Django and Vue.js 
+are rising steadily
+Best known frameworks: 2018-2020
+AngularJS
+1
+1
+1
+React
+2
+2
+3
+Spring
+3
+3
+2
+Django
+4
+6
+6
+ExpressJS
+5
+4
+4
+ASP
+6
+5
+5
+.NETCore
+7
+7
+7
+Vue.js
+8
+9
+10
+Ruby on Rails
+9
+8
+8
+JSF
+10
+10
+9
+2020
+2019
+2018
+2020 HackerRank Developer Skills Report  |  P.13
+L E A R N I N G
+W O R K
+T O O L S
+ I N T R O
+S K I L L S
+I N D E X
+D E V E L O P E R  T O O L S
+For the third year running, Go is the #1 language developers want 
+to learn next. 
+Developed by Google, Go has seen increasing popularity since 
+its invention in 2009, due in part to the visibility of its creators. 
+As we noted in our 2018 report, it’s not the first time tech giants 
+like Google have driven language adoption: Twitter similarly 
+boosted Scala when it outgrew Ruby on Rails, as Apple did for Swift 
+when it moved away from Objective-C. 
+And slowly but surely, developers are learning Go. It inched up 
+to the 12th best known language for 2020, up from 13th in 2018.
+Go is the #1 language 
+developers want 
+to learn
+What languages do you plan on learning next?
+Go
+Python
+Kotlin
+Typescript
+R
+Scala
+Swift
+Rust
+Ruby
+JavaScript
+C#
+Haskell
+C++
+Clojure
+Elixir
+Objective-C
+Erlang
+Java
+Julia
+Lua
+Perl
+PHP
+OCaml
+Prolog
+Stan
+Pascal
+C
+36.2%
+27.7%
+24.9%
+20.7%
+20.0%
+18.7%
+16.7%
+16.3%
+15.9%
+15.0%
+13.5%
+12.0%
+11.4%
+11.3%
+11.0%
+10.6%
+10.6%
+10.2%
+10.1%
+9.4%
+9.3%
+8.8%
+7.9%
+7.7%
+7.5%
+6.6%
+6.0%
+2020 HackerRank Developer Skills Report  |  P.14
+L E A R N I N G
+W O R K
+T O O L S
+ I N T R O
+S K I L L S
+I N D E X
+D E V E L O P E R  T O O L S
+Perl is the language most closely associated with above-average 
+pay. Globally, developers that know Perl make 54% more than 
+the average annual developer salary. It’s followed by Scala (+42%), 
+and Go (+33%).
+The high pay association with languages like Perl, Scala, and Go 
+is due in part to the demographic that knows them. For example, 
+about 10% of senior developers polled knew Perl—but only 2% 
+of junior developers did. Scala and Go showed similar patterns. 
+And since senior developers tend to earn higher salaries, 
+the average salary associated with each language is elevated.
+Those that know Perl 
+make 54% more than 
+the average developer
+Salary increase based on languages known
+Over global average salary ($54,491 USD)
+Perl
+Scala
+Go
+Ruby
+Objective-C
+Swift
+Pascal
+R
+Prolog
+C#
+Kotlin
+Typescript
+Python
+JavaScript
+C++
++54.2%
++41.6%
++33.4%
++32.3%
++22.4%
++19.6%
++15.2%
++13.1%
++11.3%
++7.3%
++6.8%
++5.4%
++4.0%
++2.2%
++1.6%
+2020 HackerRank Developer Skills Report  |  P.15
+L E A R N I N G
+W O R K
+T O O L S
+ I N T R O
+S K I L L S
+I N D E X
+D E V E L O P E R  T O O L S
+React is the framework most developers want to learn—32% say 
+it’s the framework they’re learning next. 
+AngularJS and Django round out the top 3: 28% say they plan 
+to learn AngularJS, and 26% say they’re learning Django. All three 
+frameworks are in the top five that hiring managers need.
+Last year, we noted that an increasing number of developers were 
+planning to learn React—and that as a result, it had a chance to 
+become the best known framework in 2020. But in this year’s survey, 
+React’s position remained static as the second best-known framework.
+Developers are learning 
+React, AngularJS, 
+and Django
+Which frameworks do you plan on learning next?
+React
+AngularJS
+Django
+Vue.js
+Ruby on Rails
+Spark
+Spring
+ExpressJS
+.NETCore
+Backbone.js
+ASP
+Ember
+Cocoa
+Struts
+Meteor
+Pyramid
+JSF
+Padrino
+27.6%
+32.3%
+26.3%
+23.6%
+16.3%
+15.3%
+15.1%
+13.7%
+12.5%
+11.0%
+8.9%
+8.6%
+8.4%
+8.3%
+8.1%
+8.0%
+7.4%
+7.1%
+2020 HackerRank Developer Skills Report  |  P.16
+L E A R N I N G
+W O R K
+T O O L S
+ I N T R O
+S K I L L S
+I N D E X
+D E V E L O P E R  T O O L S
+Backbone.js is the framework associated with the highest pay: 
+developers that know it earn 49% more than the global average. 
+Cocoa and Ruby on Rails were linked to the second and third highest 
+average salaries. Those that know Cocoa earn 35% more than 
+the global average, whereas those that know Ruby on Rails earn 
+30% more than the global average.
+Again, the association with higher pay is tied in part to seniority. 
+Take, for example, Backbone.js. 7% of senior developers know it, 
+compared to only 2% of junior developers. And since senior 
+developers earn higher pay, it could elevate the average pay linked 
+to the framework.
+It’s worth noting that Backbone.js is also an uncommon skill—
+globally, only 4% of developers know it. So the low knowledge supply 
+may allow those that know it to demand higher pay.
+But globally, 
+Backbone.js is associated 
+with the highest pay
+Salary increase based on frameworks known
+Over global average salary ($54,491 USD)
+Backbone.js
+Cocoa
+Ruby on Rails
+Spark
+Struts
+.NETCore
+React
+ASP
+Vue.js
+Angular JS
+JSF
+Spring
+Django
+ExpressJS
++48.7%
++34.6%
++29.6%
++29.4%
++19.3%
++10.7%
++8.7%
++7.4%
++6.3%
++3.7%
++2.2%
++1.2%
++1.0%
++0.1%
+2020 HackerRank Developer Skills Report  |  P.17
+L E A R N I N G
+W O R K
+T O O L S
+ I N T R O
+S K I L L S
+I N D E X
+Averaged across all job roles and levels, US developers are paid the 
+most: developers there make $109,167 annually on average.
+Australia and Canada were the next highest paying countries, with 
+average developer salaries of $88,539 and $72,771, respectively. The 
+Netherlands and the United Kingdom rounded out the top five highest 
+paying countries.
+US developers make 
+more than those in any 
+other country
+D E V E L O P E R S  A T  W O R K
+What is your current salary?
+United States
+Australia
+Canada
+Netherlands
+United Kingdom
+Germany
+South Africa
+Indonesia
+Spain
+Ukraine
+Argentina
+Colombia
+Turkey
+Mexico
+Brazil
+Poland
+Italy
+Romania
+Russia
+Pakistan
+India
+Bangladesh
+Nigeria
+$88,539
+$109,167
+$72,771
+$68,194
+$65,388
+$64,088
+$45,990
+$45,269
+$44,038
+$43,600
+$42,442
+$41,818
+$41,758
+$41,392
+$40,876
+$40,420
+$39,716
+$39,641
+$39,256
+$39,154
+$38,229
+$35,096
+$33,582
+Global Average Salary:
+$54,491 (USD)
+2020 HackerRank Developer Skills Report  |  P.18
+L E A R N I N G
+T O O L S
+W O R K
+ I N T R O
+S K I L L S
+I N D E X
+Taking a closer look at the US, western cities take the cake 
+for highest developer salaries. Cities in the west have the highest 
+pay (with an average salary of $128,198), while the northeast comes 
+in second (with an average salary of about $112,871). 
+High salaries in the west region are led by coastal tech talent 
+magnets like San Francisco ($147,948), Seattle ($134,539), 
+and Los Angeles ($129,080), which make up the three highest 
+paying cities in the region. And in the northeast, Boston ($116,804) 
+and New York ($115,792) pay the highest salaries. 
+•  West Average: $128,198
+•  Northeast Average: $112,871
+•  Midwest Average: $100,711
+•  South Average: $98,986
+The west is the highest 
+paying region in the US
+D E V E L O P E R S  A T  W O R K
+Average developer salary by US metro area
+San Francisco
+Seattle
+Los Angeles
+Boston
+New York
+Chicago
+Austin
+San Diego
+Portland
+Salt Lake City
+Washington D.C.
+Atlanta
+Denver
+Philadelphia
+Dallas
+Minneapolis/St. Paul
+Phoenix
+Detroit
+Raleigh
+Miami
+$129,080
+$134,539
+$147,948
+$116,804
+$115,792
+$113,820
+$109,562
+$107,903
+$107,432
+$106,293
+$105,967
+$104,803
+$101,095
+$97,343
+$96,641
+$90,882
+$88,437
+$86,046
+$83,125
+$79,583
+2020 HackerRank Developer Skills Report  |  P.19
+L E A R N I N G
+T O O L S
+W O R K
+ I N T R O
+S K I L L S
+I N D E X
+Only 35% of developers believe they’re being paid fairly. On the flip 
+side, 39% believe they’re being paid unfairly compared to peers, 
+and 26% just aren’t sure.
+As sharing salaries has become the norm through websites like 
+Glassdoor and LinkedIn, developers have gained unprecedented 
+access to peer salary estimates. In many ways, that shift is a positive 
+one; it gives developers the ammo they need to negotiate pay aligned 
+with their fair market value. But it also means developers are more 
+aware when their pay differs from that of their peer group.
+Globally, 39% of 
+developers feel 
+they’re paid unfairly
+D E V E L O P E R S  A T  W O R K
+Do you believe you’re being paid fairly compared to your peers?
+Yes 34.9%
+No 39.1%
+Not Sure 26.0%
+2020 HackerRank Developer Skills Report  |  P.20
+L E A R N I N G
+T O O L S
+W O R K
+ I N T R O
+S K I L L S
+I N D E X
+Last year, we learned that competitive compensation is the #3 
+criteria developers look for in a job—but professional growth 
+and learning is #1. This year, we asked developers to define 
+the form of professional growth that’s most important to them.
+Most developers agree: they want opportunities to learn new 
+technical skills on the job. A whopping 59% of developers ranked it 
+as the most important form of professional growth. 
+It was twice as important as the ability to take on new responsibilities, 
+and more than 4x more important than chances to develop soft skills.  
+The most important 
+form of professional 
+growth: new tech skills
+D E V E L O P E R S  A T  W O R K
+What form of professional growth is most important to you?
+59.0%
+24.9%
+13.9%
+2.3%
+Opportunity to learn new technical skills at work
+Ability to take on more responsibilities & receive promotions at work
+Opportunities to develop soft skills
+2020 HackerRank Developer Skills Report  |  P.21
+L E A R N I N G
+T O O L S
+W O R K
+ I N T R O
+S K I L L S
+I N D E X
+62% of developers in individual contributor roles want to become a technical 
+lead in the next three years. That’s a stark contrast to the number that want 
+to become managers (15%). 
+It may be part of why most developers prioritize learning new tech skills 
+when it comes to professional growth (versus taking on more responsibility 
+or soft skills advancement, for example). Most are less interested in 
+managing people, and more interested in filling a technical lead role, like a 
+principal architect—so picking up new technical skills is paramount.
+On the flip side, developers currently acting as managers and technical leads 
+were pleased with their current roles. Most wanted to stay in the same role 
+down the line.
+Individual contributors 
+want to be tech leads, 
+not managers
+D E V E L O P E R S  A T  W O R K
+What role do you want to have in three years?
+Want to be a
+Technical Lead
+Want to be an
+Individual
+Contributor
+Want to be an
+Engineering
+Manager
+Other
+61.8%
+57.6%
+39.9%
+19.1%
+4.5%
+6.0%
+15.3%
+30.4%
+47.6%
+3.8%
+7.5%
+6.5%
+Individual Contributors
+Technical Leads
+Engineering Managers
+2020 HackerRank Developer Skills Report  |  P.22
+L E A R N I N G
+T O O L S
+W O R K
+ I N T R O
+S K I L L S
+I N D E X
+When they’re not coding, most developers spend their 
+time listening to music (61%). 
+Surfing the web (52%), getting something to eat or drink 
+(48%), and exercising (48%) were also popular options 
+for a quick time out. But 3% of developers say they never 
+take a break!
+Developers spend 
+downtime listening 
+to music and surfing 
+the web
+D E V E L O P E R S  A T  W O R K
+What do you do to take a break from coding?
+Listen to Music
+Surf the Web
+Eat or Drink Something
+Exercise / Go for a Walk
+Check Social Media
+Watch Videos
+Talk to a Co-Worker
+Read
+Play Video Games
+Text or Call Someone
+Take a Nap
+Meditate
+Play Ping Pong/Pool/Foosball
+Spend Time With my Pet(s)
+Never Take a Break from Coding
+Other
+61.0%
+52.0%
+48.2%
+47.6%
+40.8%
+40.2%
+37.3%
+31.2%
+27.7%
+27.5%
+20.2%
+10.5%
+8.7%
+8.3%
+2.8%
+4.4%
+2020 HackerRank Developer Skills Report  |  P.23
+L E A R N I N G
+T O O L S
+W O R K
+ I N T R O
+S K I L L S
+I N D E X
+HackerRank conducted its third annual developer skills survey to identify trends in the 
+developer community. A total of 116,648 developers and students responded to the 
+15-minute online survey from November 12 to December 11, 2019. The survey was 
+programmed in SurveyMonkey and HackerRank recruited respondents via email 
+(community members, customers, and prospects) and through social media sites. 
+Respondents came from 162 countries. Results were analyzed using Q Research. Tests 
+of significant differences were conducted at the .05 level (95% probability that the difference 
+is real, not by chance). Percentages may not always add to 100% due to rounding.
+Global region definitions:
+• Americas (AMER): Antigua and Barbuda, Argentina, Bahamas, Barbados, Belize, Bolivia, 
+Brazil, Canada, Chile, Colombia, Costa Rica, Cuba, Dominican Republic, Ecuador, El 
+Salvador, Guatemala, Haiti, Honduras, Jamaica, Mexico, Nicaragua, Panama, Paraguay, 
+Peru, Trinidad and Tobago, United States, Uruguay, Venezuela
+• Asia-Pacific (APAC): Afghanistan, Australia, Azerbaijan, Bangladesh, Bhutan, Brunei, 
+Cambodia, China, Fiji, Georgia, India, Indonesia, Japan, Kazakhstan, Kiribati, Kyrgyzstan, 
+Maldives, Malaysia, Mauritania, Mongolia, Myanmar, Nepal, New Zealand, Pakistan, 
+Philippines, Singapore, South Korea, Sri Lanka, Taiwan, Thailand, Turkmenistan, 
+Uzbekistan, Vietnam, Tajikstan
+• Europe, Middle East, & Africa (EMEA): Albania, Algeria, Andorra, Angola, Armenia, 
+Austria, Bahrain, Belarus, Belgium, Benin, Bosnia and Herzegovina, Botswana, Bulgaria, 
+Burkina Faso, Burundi, Cabo Verde, Cameroon, Congo, Croatia, Cyprus, Czech Republic, 
+Denmark, Egypt, Equatorial Guinea, Eritrea, Estonia, Ethiopia, Finland, France, Gabon, 
+Gambia, Germany, Ghana, Greece, Holy See, Hungary, Iceland, Iran, Iraq, Ireland, Israel, 
+Italy, Jordan, Kenya, Kuwait, Latvia, Lebanon, Lesotho, Libya, Lithuania, Luxembourg, 
+Macedonia, Madagascar, Malawi, Malta, Mauritius, Moldova, Montenegro, Morocco, 
+Mozambique, Namibia, Netherlands, Niger, Nigeria, Norway, Oman, Palestine, Poland, 
+Portugal, Qatar, Romania, Russia, Rwanda, San Marino, Saudi Arabia, Serbia, Seychelles, 
+Sierra Leone, Slovakia, Slovenia, Somalia, South Africa, Spain, Sudan, Swaziland, Sweden, 
+Switzerland, Syria, Tanzania, Togo, Tunisia, Turkey, Uganda, Ukraine, United Arab 
+Emirates, United Kingdom, Yemen, Zambia, Zimbabwe, Mali
+US region definitions (based on US Census Bureau method):
+• Midwest: Chicago, Minneapolis/St. Paul, Detroit
+• Northeast: Boston, New York, Philadelphia
+• South: Austin, Atlanta, Miami, Dallas, Raleigh, Miami, Washington D.C.
+• West: San Francisco, Seattle, Los Angeles, San Diego, Portland, Salt Lake 
+City, Denver, Phoenix
+
+Generation definitions (based on Pew Research ranges):
+• Gen Z: Born 1997-2012
+• Millennial: Born 1981-1996
+• Gen X: Born 1965-1980
+• Baby Boomer: Born 1946-1964
+Methodology
+2020 HackerRank Developer Skills Report  |  P.24
+L E A R N I N G
+T O O L S
+W O R K
+ I N T R O
+S K I L L S
+I N D E X
+Code & Get Hired
+More Research
+Get in Touch
+Hire Talent
+F O R  D E V E L O P E R S
+F O R  W O R K
+Join over 7 million developers, 
+improve your coding skills, and 
+find the best job.
+HackerRank is the leading 
+end-to-end technical recruiting 
+platform for hiring developers.
+research@hackerrank.com   |   www.hackerrank.com
+USA: +1-415-900-4023   |   India: +91-888-081-1222   |   UK: +44-208-004-0258
+2020 HackerRank Developer Skills Report  |  P.25
+L E A R N I N G
+T O O L S
+W O R K
+ I N T R O
+S K I L L S
+Sign Up & Code
+Learn More
+I N D E X
