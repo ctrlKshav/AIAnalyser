@@ -2,3 +2,4 @@
 backend/.env
 backend/__pycache__
 uploaded_pdfs/*
+backend/processed_files/*
