@@ -15,6 +15,10 @@ AIAnalyser is a PDF-based question-answering platform. Users can upload a PDF an
 - **Q&A Interface**: Ask questions about the content of the uploaded PDF.
 - **Responsive Design**: User-friendly layout for a seamless experience.
 
+## Demo
+
+https://github.com/user-attachments/assets/a2a023e0-dfe1-4735-8b69-d09195e874cd
+
 ## Installation and Setup
 
 ### Prerequisites
