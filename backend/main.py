@@ -5,11 +5,9 @@ from dotenv import load_dotenv  # Loading dotenv to access environment variables
 import fitz  
 
 from fastapi import FastAPI, File, UploadFile
-from pydantic import BaseModel
-
 from fastapi.middleware.cors import CORSMiddleware
 
-from langchain.embeddings import HuggingFaceEmbeddings
+from pydantic import BaseModel
 
 from langchain import hub
 from langchain_community.document_loaders import TextLoader
