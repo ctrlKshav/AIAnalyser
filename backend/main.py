@@ -10,7 +10,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 from langchain import hub
-from langchain_community.document_loaders import TextLoader
+from langchain_community.document_loaders import TextLoader,WebBaseLoader
 from langchain.vectorstores import FAISS
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
@@ -52,6 +52,9 @@ def process_text_file(text_file_path: str, question) -> str:
     # Load the extracted text as a document
     loader = TextLoader('./processed_files/pdf_text.txt')
 
+    #Testing the website search and it works pretty easy
+    # loader = WebBaseLoader('https://realkeshav.vercel.app')
+
     # Loading the document data and confirm it loads correctly
     docs = loader.load()
     print("Documents loaded:", docs)
@@ -63,7 +66,7 @@ def process_text_file(text_file_path: str, question) -> str:
 
     # Create embeddings and initialize vector storage with FAISS
     hf_embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
-    vectorstore = FAISS.from_documents(splits, hf_embeddings)
+    vectorstore = FAISS.from_documents(splits, hf_embeddings) 
 
     # Configure retriever and prompt for querying
     retriever = vectorstore.as_retriever()
