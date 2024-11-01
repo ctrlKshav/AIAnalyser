@@ -25,7 +25,8 @@ load_dotenv(".env")
 # Setting up CORS to enable cross-origin requests from frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[os.getenv('LOCALHOST')],  # My Frontend URL
+    # allow_origins=[os.getenv('LOCALHOST')],  # My Frontend URL
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"], 
     allow_headers=["*"], 
