@@ -33,6 +33,7 @@ const PDFUpload = () => {
         body: formData,
       });
       const result = await response.json();
+      console.log(result)
       setUploadMessage("PDF Uploaded and processed successfully");
 
       // Clear the message after 3 seconds
@@ -61,6 +62,7 @@ const PDFUpload = () => {
         },
         body: JSON.stringify({ question }),
       });
+      // console.log(response)
       const result = await response.json();
 
       // Update the last entry with the answer
