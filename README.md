@@ -1,4 +1,4 @@
-# JustAsk(In Development)
+# JustAsk(Under Improvement)
 
 JustAsk is my RAG Based PDF Querying System. Users can upload a PDF and ask questions about its content, using  natural language processing to extract accurate answers.
 
